@@ -5,18 +5,32 @@ import Hero from './Hero'
 import ResortListing from './ResortListing'
 import Footer from './Footer'
 
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
+
 import "../assets/css/App.css"
+import "../assets/css/utilities.css"
 
 //Root component
 const App = () => {
   return (
-    <div>
+      <div className="grid grid-row-3" id="main-container">
         <Header />
-        <Hero />
-        <ResortListing />
+        <main>
+            <Hero />
+            <ResortListing />
+        </main>
         <Footer />
-    </div>
+        
+    </div>      
   );
 }
 
 export default App;
+
+
