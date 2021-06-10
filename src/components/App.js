@@ -1,15 +1,12 @@
 //This is the root component
-import React from 'react'
-import Header from './Header'
-import Hero from './Hero'
-import ResortListing from './ResortListing'
-import Footer from './Footer'
+
+import HomePage from "../pages/HomePage"
+import AboutPage from "../pages/AboutPage"
 
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 
 
@@ -19,15 +16,28 @@ import "../assets/css/utilities.css"
 //Root component
 const App = () => {
   return (
-      <div className="grid grid-row-3" id="main-container">
-        <Header />
-        <main>
-            <Hero />
-            <ResortListing />
-        </main>
-        <Footer />
-        
-    </div>      
+      <Router>
+          <Switch>
+              <Route path="/about-us">
+                  <AboutPage/>
+              </Route>
+              <Route path="product/listing">
+                
+              </Route>
+              <Route path="/login">
+                
+              </Route>
+              <Route path="/registration">
+                
+              </Route>
+              <Route path="/product/:id">
+                
+              </Route>
+              <Route path="/">
+                  <HomePage/>
+              </Route>
+          </Switch>
+      </Router>
   );
 }
 

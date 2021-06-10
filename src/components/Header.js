@@ -1,5 +1,8 @@
 import React from 'react'
 
+//This stops the page from jumping when a link is clicked
+import {Link} from "react-router-dom"
+
 const Header = () => {
     return (
         <header>
@@ -7,22 +10,22 @@ const Header = () => {
                     <nav>
                         <ul>
                             <li>
-                                <a href="#">Home</a>
+                                <Link to="/">Home</Link>
                             </li>
 
                             <li>
-                                <a href="/">About</a>
+                                <Link to="/about-us">About</Link>
                             </li>
 
                             <li>
-                                <a href="/">Resort Listing</a>
+                                <Link to="/product-listing">Resort Listing</Link>
                             </li>
 
                             <li>
-                                <a href="/">Login</a>
+                                <Link to="/login">Login</Link>
                             </li>
                             <li>
-                                <a href="/">Registration</a>
+                                <Link to="/registration">Registration</Link>
                             </li>
                         </ul>
                     </nav>
