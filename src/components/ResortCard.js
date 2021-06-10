@@ -1,11 +1,16 @@
 import React from 'react'
 
 const ResortCard = (props) => {
+    
+    // import images dynamically so they can be used inside the component
+    const image = require(`../assets/img/${props.pic}`).default
+    
     return (
+
         <div className="resort-card">
 
             <a href = "/"> 
-                <img src={props.image} alt=""/>   
+                <img src={image} alt=""/>   
             </a> 
 
             <div className="resortContent">

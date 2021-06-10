@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Hero = () => {
+const Hero = (props) => {
     return (
-        <section id="hero-section">
-                <div class="container">
+        // Style must receive an object literal
+        <section id="hero-section" style={{backgroundImage:`url("${props.bgImage}")`}}>
+                <div className="container">
                     <h1>
-                        Take A Post Covid Vacation<br/>
-                        To Anywhere In The World
+                        {props.title}
                     </h1>
                 </div>  
         </section>
