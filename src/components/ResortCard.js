@@ -15,7 +15,7 @@ const ResortCard = (props) => {
 
             <div className="resortContent">
                 <h3>{props.title}</h3>
-                <p>{props.price} per night</p>
+                <p>${props.price} per night</p>
             </div>
             
         </div>    

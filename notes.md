@@ -52,8 +52,14 @@ CSS files get imported into the App.js
 - anytime you have children or grandchildren components that need to access the same state, you create the state at the App.js level
 
 #Using state in a functional based component
+#useState
 - traditionally, functional components could not create state, only class based components
 - by using the {useState} hook you can add state to functional components
+
+#useEffect
+- also a hook
+- allows you to communicate with API - send AJAX requests
+- used when you want something to happen as soon as the component is loaded
 
 #Hooks
 - returns an array with 2 values
@@ -106,5 +112,13 @@ const App = ()=>
 When mapping through a list of elements in React, you must specify a key attribute to uniquely identify each item
 
 #Import images dynamically
-- const image = require(`../`)
+
+#JSON Server
+npm install -g json-server
+create db.json on the root folder
+copy sample code 
+
+start server: 
+json-server --watch db.json --port 5000
+
 
