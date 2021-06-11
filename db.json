@@ -1,45 +1,62 @@
-
 {
-    "resorts": [
-        {
-            "id":1,
-            "title":"Hilton",
-            "price": 50,
-            "pic": "resort1.webp",
-            "details":"blah blah blah",
-            "featured":"true"
-        },
-        {
-            "id":2,
-            "title":"Double Palm",
-            "price": 60,
-            "pic": "resort2.webp",
-            "details":"blah blah blah",
-            "featured":"true"
-        },
-        {
-            "id":3,
-            "title":"Resort 3",
-            "price": 70,
-            "pic": "resort3.webp",
-            "details":"blah blah blah",
-            "featured":"false"
-        },
-        {
-            "id":4,
-            "title":"Resort 4",
-            "price": 80,
-            "pic": "resort4.webp",
-            "details":"blah blah blah",
-            "featured":"false"
-        }
-    ],
-
-    "users": [
-        {
-
-        }
-    ]
-
-   
+  "resorts": [
+    {
+      "id": 1,
+      "title": "Hilton",
+      "price": 50,
+      "pic": "resort1.webp",
+      "details": "blah blah blah",
+      "featured": "true"
+    },
+    {
+      "id": 2,
+      "title": "Double Palm",
+      "price": 60,
+      "pic": "resort2.webp",
+      "details": "blah blah blah",
+      "featured": "true"
+    },
+    {
+      "id": 3,
+      "title": "Resort 3",
+      "price": 70,
+      "pic": "resort3.webp",
+      "details": "blah blah blah",
+      "featured": "false"
+    },
+    {
+      "id": 4,
+      "title": "Resort 4",
+      "price": 80,
+      "pic": "resort4.webp",
+      "details": "blah blah blah",
+      "featured": "false"
+    }
+  ],
+  "users": [
+    {
+      "firstName": "Luke",
+      "lastName": "Fraser",
+      "email": "lukebf@gmail.com",
+      "password": "Pass1",
+      "cpassword": "Pass1",
+      "id": 1
+    },
+    {
+      "firstName": "Ayana",
+      "lastName": "Ishmael",
+      "email": "ayana24th@hotmail.com",
+      "password": "Pass12",
+      "cpassword": "Pass2",
+      "id": 2
+    },
+    {
+      "firstName": "Solange",
+      "lastName": "Bobb",
+      "email": "sbobb@gmail.com",
+      "password": "Pass13",
+      "cpassword": "Pass3",
+      "id": 3
+    }
+  ]
 }

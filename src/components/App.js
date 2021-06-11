@@ -3,6 +3,8 @@ import React,{useState,useEffect} from "react"
 
 import HomePage from "../pages/HomePage"
 import AboutPage from "../pages/AboutPage"
+import Registration from "../pages/RegistrationPage"
+import RegistrationPage from "../pages/RegistrationPage"
 
 import {
   BrowserRouter as Router,
@@ -75,7 +77,7 @@ const App = () => {
                     
                 </Route>
                 <Route path="/registration">
-                    
+                    <RegistrationPage/>
                 </Route>
                 <Route path="/product/:id">
                     

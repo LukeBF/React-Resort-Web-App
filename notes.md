@@ -121,4 +121,7 @@ copy sample code
 start server: 
 json-server --watch db.json --port 5000
 
+#Forms
+- each form component must be tied to their own state
+
 
